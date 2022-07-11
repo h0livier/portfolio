@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.e686f4ae.css",
+    "main.js": "/portfolio/static/js/main.507749a1.js",
+    "static/js/787.a71561b8.chunk.js": "/portfolio/static/js/787.a71561b8.chunk.js",
+    "static/media/Hayot_CV.pdf": "/portfolio/static/media/Hayot_CV.d0d0c6da827dfa429406.pdf",
+    "static/media/Olivier_carre.jpg": "/portfolio/static/media/Olivier_carre.f3cadca12a0b0eb35010.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.e686f4ae.css.map": "/portfolio/static/css/main.e686f4ae.css.map",
+    "main.507749a1.js.map": "/portfolio/static/js/main.507749a1.js.map",
+    "787.a71561b8.chunk.js.map": "/portfolio/static/js/787.a71561b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e686f4ae.css",
+    "static/js/main.507749a1.js"
+  ]
+}
