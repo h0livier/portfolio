@@ -1,5 +1,23 @@
+:root {
+  --white: #FFF;
+  --blue: #005aa7;
+  --yellow: #fadf8b;
+  --onyx: #23362d;
+  --light-grey: #f8f8f8;
+  --skill-background: var(--onyx);
+  --gradient: linear-gradient(35deg, #005aa7, #fadf8b);
+  --reverse-gradient: linear-gradient(35deg, #fadf8b, #005aa7);
+  --background: white;
+  --text-primary: black;
+  --reverse-text: white
+}
+
 .App {
   text-align: center;
+}
+
+body{
+  overflow-x: hidden;
 }
 
 .App-logo {

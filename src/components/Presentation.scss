@@ -1,0 +1,148 @@
+@import '../_colors.scss';
+@import '../dimensions.scss';
+
+#presentationContainer{
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
+
+#preBackground{
+    position: relative;
+    top: -50%;
+    width: -50%;
+
+    background: $gradient repeat;
+    width: 150%;
+    height: 150%;
+}
+
+#preBackgroundContainer{
+    position: absolute;
+    left: 0vh;
+    top: 0vh;
+
+    width: 100vw;
+    height: 70vh;
+    overflow: hidden;
+}
+
+#presentation{
+    
+    position: relative;
+    left: 15vw;
+    top: 45vh;
+
+    padding: 2.5vh 5vw;
+
+    width: 60vw;
+    max-width: 80vw;
+    height: 40vh;
+
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $white;
+
+    color: $onyx;
+
+    figure img{
+        width: 15vw;
+        height: 15vw;
+        border-radius: 5%;
+    }
+
+    .text{
+        text-align: left;
+        h1{
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        p{
+            font-size: 1.6em;
+        }
+    }
+
+    #CVDownloadButton{
+        background-color: $primary-color;
+        text-align: center;
+        padding: 15px 20px;
+        border-radius: 7.5px;
+
+        width: fit-content;
+
+        a{
+            text-decoration: none;
+            color: $white;
+        }
+    }
+
+}
+
+@media only screen and (max-width: $desktop) {
+    #presentation{
+        left: 5vw;
+        top: 45vh;
+    
+        padding: 2.5vh 5vw;
+    
+        width: 80vw;
+        max-width: 80vw;
+        height: 40vh;
+
+        font-size: 0.8em;
+
+        figure img{
+            width: 25vw;
+            height: 25vw;
+        }
+    }
+}
+
+@media only screen and (max-width: $tab) {
+    #presentation{
+        flex-direction: column-reverse;
+
+        top: 25vh;
+        left: 7.5vw;
+
+        padding: 2.5vh 2.5vw;
+
+        width: 80vw;
+        height: 60vh;
+
+        figure img{
+            width: 35vw;
+            height: 35vw;
+        }
+
+        .text{
+            text-align: center;
+            div{
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: $mobile-l) {
+    #presentation{
+
+        font-size: 0.7em;
+
+        top: 15vh;
+        height: 70vh;
+
+        figure img{
+            width: 45vw;
+            height: 45vw;
+        }
+    }
+    
+}

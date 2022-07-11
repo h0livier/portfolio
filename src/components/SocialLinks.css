@@ -1,0 +1,41 @@
+#socialLinksContainer{
+    width: 60%;
+    margin: 0 20%;
+}
+#socialLinks{
+    background: var(--reverse-gradient);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 20vw;
+    height: 5vh;
+    margin: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.socialImage{
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+@media only screen and (max-width: 1200px) {
+    #socialLinksContainer{
+        width: 80%;
+        margin: 0 10%;
+    }
+    .socialImage{
+        width: 2.25vw;
+        height: 2.25vw;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #socialLinksContainer{
+        width: 90%;
+        margin: 0 5%;
+    }
+    .socialImage{
+        width: 3.5vw;
+        height: 3.5vw;
+    }
+}
